@@ -1,35 +1,66 @@
-# React + TypeScript + Vite
+# Hangman Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a basic Hangman game built with React and TypeScript. Vite is used as the development setup tool for a fast and optimized development experience.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Classic Hangman game logic
+- Simple and intuitive UI
+- Responsive design
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Follow these steps to set up and run the project locally:
 
-- Configure the top-level `parserOptions` property like this:
+### 1. Clone the Repository
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+First, clone the repository to your local machine using Git:
+
+```bash
+git clone https://github.com/naman1402/react-ts-project.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### 2. Navigate to the Project Directory
+
+```bash
+cd react-ts-project
+```
+
+### 3. Install Dependencies
+
+Install the necessary dependencies using npm:
+
+```bash
+npm install
+```
+
+### 4. Run the Development Server
+
+Start the development server to run the project locally:
+
+```bash
+npm run dev
+```
+
+### 5. Open the Application
+
+Once the development server is running, open your browser and navigate to `http://localhost:5172` to see the application in action.
 
 
-========= 
+## Technologies Used
 
-using vite - react - typescript
+- React
+- TypeScript
+- Vite
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+---
+
+Happy coding! If you have any questions, feel free to open an issue or reach out to the maintainer.
